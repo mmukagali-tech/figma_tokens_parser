@@ -1,0 +1,8 @@
+{
+  "tokenSetOrder": [
+    "default/base",
+    "default/app/alias",
+    "default/app/mode/light",
+    "default/app/mode/dark"
+  ]
+}

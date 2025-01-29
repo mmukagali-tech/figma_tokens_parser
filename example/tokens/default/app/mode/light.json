@@ -1,0 +1,287 @@
+{
+  "foreground": {
+    "default": {
+      "value": "{color.neutral.970}",
+      "type": "color",
+      "description": "Основной цвет текста и иконок"
+    },
+    "soft": {
+      "value": "{color.neutral.500}",
+      "type": "color",
+      "description": "Мягкий тон цвета текста и иконок"
+    },
+    "mute": {
+      "value": "{color.neutral.300}",
+      "type": "color",
+      "description": "Приглушенный тон цвета текста и иконок"
+    },
+    "inverse": {
+      "value": "{color.neutral.50}",
+      "type": "color",
+      "description": "Цвет текста и иконок на противоположном фоне"
+    },
+    "disabled": {
+      "value": "rgba({color.neutral.500}, 0.5)",
+      "type": "color",
+      "description": "Цвет текста и иконок для состояния disabled"
+    }
+  },
+  "background": {
+    "surface1": {
+      "value": "{color.neutral.0}",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков"
+    },
+    "surface2": {
+      "value": "{color.neutral.50}",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков"
+    },
+    "surface3": {
+      "value": "{color.neutral.970}",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков"
+    },
+    "surface4": {
+      "value": "{color.neutral.950}",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков"
+    },
+    "page": {
+      "value": "{color.neutral.0}",
+      "type": "color",
+      "description": "Цвет фона страницы"
+    },
+    "skeleton": {
+      "value": "rgba( {color.neutral.500} , 0.2)",
+      "type": "color",
+      "description": "Цвет фона скелетона"
+    },
+    "disabled": {
+      "value": "rgba({color.neutral.500}, 0.1)",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков в состоянии disabled"
+    }
+  },
+  "border": {
+    "default": {
+      "value": "rgba( {color.neutral.500}, 0.5)",
+      "type": "color",
+      "description": "Цвет для бордеров и разделителей"
+    },
+    "soft": {
+      "value": "rgba( {color.neutral.500}, 0.25)",
+      "type": "color",
+      "description": "Мягкий тон цвета для бордеров и разделителей"
+    },
+    "mute": {
+      "value": "rgba( {color.neutral.500}, 0.15)",
+      "type": "color",
+      "description": "Приглушенный тон цвета для бордеров и разделителей"
+    }
+  },
+  "static": {
+    "black": {
+      "value": "{color.neutral.970}",
+      "type": "color",
+      "description": "Черный цвет, не меняющийся при переключении режима light / dark"
+    },
+    "white": {
+      "value": "{color.neutral.0}",
+      "type": "color",
+      "description": "Белый цвет, не меняющийся при переключении режима light / dark"
+    }
+  },
+  "neutral": {
+    "default": {
+      "value": "{color.neutral.500}",
+      "type": "color",
+      "description": "Цвет для нейтральных элементов"
+    },
+    "soft": {
+      "value": "{color.neutral.400}",
+      "type": "color",
+      "description": "Мягкий тон цвета для нейтральных элементов"
+    },
+    "mute": {
+      "value": "{color.neutral.200}",
+      "type": "color",
+      "description": "Приглушенный тон цвета для нейтральных элементов"
+    },
+    "on-neutral": {
+      "value": "{color.neutral.0}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на нейтральном фоне"
+    },
+    "container": {
+      "value": "rgba( {color.neutral.500}, 0.1)",
+      "type": "color",
+      "description": "Цвет для нейтральных контейнеров"
+    },
+    "on-container": {
+      "value": "{color.neutral.500}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на нейтральном контейнере"
+    }
+  },
+  "error": {
+    "default": {
+      "value": "{color.error.500}",
+      "type": "color",
+      "description": "Цвет для негативного контекста"
+    },
+    "soft": {
+      "value": "{color.error.400}",
+      "type": "color",
+      "description": "Мягкий тон цвета для негативного контекста"
+    },
+    "mute": {
+      "value": "{color.error.200}",
+      "type": "color",
+      "description": "Приглушенный тон цвета для негативного контекста"
+    },
+    "on-error": {
+      "value": "{color.error.0}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на негативном фоне"
+    },
+    "container": {
+      "value": "rgba( {color.error.500}, 0.1)",
+      "type": "color",
+      "description": "Цвет для негативных контейнеров"
+    },
+    "on-container": {
+      "value": "{color.error.500}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на негативном контейнере"
+    }
+  },
+  "info": {
+    "default": {
+      "value": "{color.info.500}",
+      "type": "color",
+      "description": "Цвет для информирующего контекста"
+    },
+    "soft": {
+      "value": "{color.info.400}",
+      "type": "color",
+      "description": "Мягкий тон цвета для информирующего контекста"
+    },
+    "mute": {
+      "value": "{color.info.200}",
+      "type": "color",
+      "description": "Приглушенный тон цвета для информирующего контекста"
+    },
+    "on-info": {
+      "value": "{color.info.0}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на информирующем фоне"
+    },
+    "container": {
+      "value": "rgba( {color.info.500}, 0.1)",
+      "type": "color",
+      "description": "Цвет для информирующих контейнеров"
+    },
+    "on-container": {
+      "value": "{color.info.500}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на информирующем контейнере"
+    }
+  },
+  "success": {
+    "default": {
+      "value": "{color.success.500}",
+      "type": "color",
+      "description": "Цвет для позитивного контекста"
+    },
+    "soft": {
+      "value": "{color.success.400}",
+      "type": "color",
+      "description": "Мягкий тон цвета для позитивного контекста"
+    },
+    "mute": {
+      "value": "{color.success.200}",
+      "type": "color",
+      "description": "Приглушенный тон цвета для позитивного контекста"
+    },
+    "on-success": {
+      "value": "{color.success.0}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на позитивном фоне"
+    },
+    "container": {
+      "value": "rgba( {color.success.500}, 0.1)",
+      "type": "color",
+      "description": "Цвет для позитивных контейнеров"
+    },
+    "on-container": {
+      "value": "{color.success.500}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на позитивном контейнере"
+    }
+  },
+  "warning": {
+    "default": {
+      "value": "{color.warning.500}",
+      "type": "color",
+      "description": "Цвет для предупреждений"
+    },
+    "soft": {
+      "value": "{color.warning.400}",
+      "type": "color",
+      "description": "Мягкий тон цвета для предупреждений"
+    },
+    "mute": {
+      "value": "{color.warning.200}",
+      "type": "color",
+      "description": "Приглушенный тон цвета для предупреждений"
+    },
+    "on-warning": {
+      "value": "{color.warning.0}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на предупреждающем фоне"
+    },
+    "container": {
+      "value": "rgba( {color.warning.500}, 0.1)",
+      "type": "color",
+      "description": "Цвет для предупреждающих контейнеров"
+    },
+    "on-container": {
+      "value": "{color.warning.500}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на предупреждающем контейнере"
+    }
+  },
+  "accent": {
+    "default": {
+      "value": "{color.accent.500}",
+      "type": "color",
+      "description": "Цвет для акцентов"
+    },
+    "soft": {
+      "value": "{color.accent.400}",
+      "type": "color",
+      "description": "Мягкий тон цвета для акцентов"
+    },
+    "mute": {
+      "value": "{color.accent.200}",
+      "type": "color",
+      "description": "Приглушенный тон цвета для акцентов"
+    },
+    "on-accent": {
+      "value": "{color.accent.0}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на акцентном фоне"
+    },
+    "container": {
+      "value": "rgba( {color.accent.500}, 0.1)",
+      "type": "color",
+      "description": "Цвет для акцентных контейнеров"
+    },
+    "on-container": {
+      "value": "{color.accent.500}",
+      "type": "color",
+      "description": "Цвет для текста и иконок на акцентном контейнере"
+    }
+  }
+}
