@@ -27,13 +27,26 @@ class ColorValue {
   }
 
   ColorValue lighten(double amount) {
-    final rgb = toHSL().lighten(amount).toRGB();
-    return ColorValue._(rgb[0], rgb[1], rgb[2], a);
+    assert(0 <= amount && amount <= 1.0);
+
+    return ColorValue._(
+      r + ((255 - r) * amount).round(),
+      g + ((255 - g) * amount).round(),
+      b + ((255 - b) * amount).round(),
+      a,
+    );
   }
 
   ColorValue darken(double amount) {
-    final rgb = toHSL().darken(amount).toRGB();
-    return ColorValue._(rgb[0], rgb[1], rgb[2], a);
+    assert(0 <= amount && amount <= 1.0);
+    final f = 1 - amount;
+
+    return ColorValue._(
+      (r * f).round(),
+      (g * f).round(),
+      (b * f).round(),
+      a,
+    );
   }
 
   /// cascades this amount alpha on the existing alpha
@@ -76,9 +89,9 @@ class ColorValue {
 
     if (value != null && value != 0) {
       if (type == 'lighten') {
-        return lighten(value / 2);
+        return lighten(value);
       } else if (type == 'darken') {
-        return darken(value / 2);
+        return darken(value);
       } else if (type == 'alpha') {
         return alphainate(value);
       } else if (color != null && type == 'mix' && color.startsWith('#')) {
